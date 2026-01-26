@@ -13,14 +13,8 @@ from mpl_toolkits.mplot3d import Axes3D
 import math # For isinf
 
 # --------------------------------------------------------------------------
-# --- !!! USER ACTION REQUIRED !!! ---
 #
-# 1. FIX YOUR ENVIRONMENT:
-#    This code failed because your 'sympy' installation is broken.
-#    Run this in your terminal to fix it:
-#    pip install --upgrade --force-reinstall sympy matplotlib scipy
-#
-# 2. UPDATE FILE PATH:
+#    UPDATE FILE PATH:
 #    Update the 'file_path' variable below to point to your dataset.
 # --------------------------------------------------------------------------
 
