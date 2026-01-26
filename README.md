@@ -1,5 +1,5 @@
 ## Datasets
-- **UCI Household Electric Power Consumption**: <https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption>
+- **UCI Individual Household Electric Power Consumption**: <https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption>
 - **AEP Hourly Energy Consumption (Kaggle)**: <https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption>
 - **Solar Plant Dataset 1 (Kaggle)**: <https://www.kaggle.com/datasets/anikannal/solar-power-generation-data?select=Plant_1_Generation_Data.csv>
 - **Solar Plant Dataset 2 (Kaggle)**: <https://www.kaggle.com/datasets/anikannal/solar-power-generation-data?select=Plant_2_Generation_Data.csv>
