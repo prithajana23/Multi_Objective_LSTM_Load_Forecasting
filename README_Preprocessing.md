@@ -5,18 +5,18 @@ This work uses the **UCI Individual Household Electric Power Consumption** datas
 https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
 The raw data file required for experiments is:
-- `household_power_consumption.txt`
+- `household_power_consumption.txt'
 
 ### Data Loading
-- The dataset is loaded using `pandas.read_csv()' with semicolon (`;') delimiter.
-- The `Date' and `Time' columns are merged into a single `DateTime` column and used as the time index.
+- The dataset is loaded using 'pandas.read_csv()' with semicolon (`;') delimiter.
+- The 'Date' and 'Time' columns are merged into a single `DateTime' column and used as the time index.
 
 ### Missing Value Handling
 - Missing values marked with ``?'' are replaced with `NaN'.
 - All columns are converted to numeric using `errors='coerce''.
 - Missing values are filled using:
-  - forward-fill (`ffill`)
-  - backward-fill (`bfill`)
+  - forward-fill (`ffill')
+  - backward-fill (`bfill')
 
 ### Target Variable
 The forecasting target used in this implementation is:
@@ -32,7 +32,7 @@ To evaluate forecasting performance across multiple time resolutions, the time s
 - **Daily**: `D'
 - **Weekly**: `W'
 
-After resampling, missing values (if any) are again filled with `ffill' and `bfill'.
+After resampling, missing values (if any) are again filled with `ffill' and 'bfill'.
 
 ### Train / Validation / Test Split
 The dataset is split **chronologically** to avoid data leakage:
